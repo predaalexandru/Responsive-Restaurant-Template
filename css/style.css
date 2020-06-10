@@ -109,3 +109,51 @@ h2 {
         transform: translateX(-100%);
     }
 }
+
+
+/* Meniu */
+#menu {
+    background: #000;
+}
+
+.menu-title {
+    color: #d0d3d4;
+    text-align: center;
+    padding: 25px;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.1em;
+    color:#eee;
+}
+
+.menu-price {
+    float: right;
+}
+
+/* Restaurant Info */
+#restaurant-info {
+    background: #070707;
+    padding: 20px;
+}
+
+.restaurant-info-title {
+    color: #d3cac8;
+    text-align: center;
+}
+
+.address-content, .bussiness-hours, .contact-content {
+    padding: 10px;
+}
+
+.address, .hours {
+    font-size: 1em !important;
+    text-align: center;
+}
+
+.phone {
+    font-size: 1em !important;
+    text-align: center;
+    margin-bottom: 0;
+}
