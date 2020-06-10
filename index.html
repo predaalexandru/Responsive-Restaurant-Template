@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Bistro Bar</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,92 +13,100 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="css/style2.css">
-  </head>
-  <body>
-      <main>
-          <section id="landing-page">
-              <div class="nav-slider">
-                  <div class="line"></div>
-                  <div class="line"></div>
-                  <div class="line"></div>
-              </div>
-              <header class="title-background">
-                  <h2 class="title">Bistro Bar</h2>
-              </header>
-          </section>
+</head>
 
-          <section class="nav-slider-section">
-              <button class="close-nav-slider">X</button>
-              <section class="nav-links-container">
-                  <ul>
-                      <li><a class="nav-links" href="#menu">Menu</a></li>
-                      <li><a class="nav-links" href="#restaurant_info">Restaurant Information</a></li>
-                  </ul>
-              </section>
-          </section>
+<body>
+    <main>
+        <section id="landing-page">
+            <div class="nav-slider">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <header class="title-background">
+                <h2 class="title">Bistro Bar</h2>
+            </header>
+        </section>
 
-          <section id="menu">
-              <h2 class="menu-title">Meniu</h2>
-              <section class="tabs-container">
-                  <section class="tabs">
-                      <button class="tabHeader active-tab">Aperitive</button>
-                      <button class="tabHeader">Fel principal</button>
-                      <button class="tabHeader">Desert</button>
-                      <button class="tabHeader">Bauturi</button>
-                  </section>
+        <section class="nav-slider-section">
+            <button class="close-nav-slider">X</button>
+            <section class="nav-links-container">
+                <ul>
+                    <li><a class="nav-links" href="#menu">Menu</a></li>
+                    <li><a class="nav-links" href="#restaurant_info">Restaurant Information</a></li>
+                </ul>
+            </section>
+        </section>
 
-                  <section id="tabsection-1" class="tabSection show-tab">
-                      <p>1.Virşli cu muştar<span class="menu-price">6 Lei</span></p>
-                      <p>2.Omletă cu ciuperci şi caşcaval<span class="menu-price">9 Lei</span></p>
-                      <p>3.Salată cu ton<span class="menu-price">15 Lei</span></p>
-                      <p>4.Mămăliguţă cu brânză şi smântână<span class="menu-price">14 Lei</span></p>
-                  </section>
-                  <section id="tabsection-2" class="tabSection hide-tab">
+        <section id="menu">
+            <h2 class="menu-title">Meniu</h2>
+            <section class="tabs-container">
+                <section class="tabs">
+                    <button class="tabHeader active-tab" data-tab="1">Aperitive</button>
+                    <button class="tabHeader" data-tab="2">Fel principal</button>
+                    <button class="tabHeader" data-tab="3">Desert</button>
+                    <button class="tabHeader" data-tab="4">Bauturi</button>
+                </section>
+
+                <section id="tabSection-1" class="tabSection show-tab">
+                    <p>1.Virşli cu muştar<span class="menu-price">6 Lei</span></p>
+                    <p>2.Omletă cu ciuperci şi caşcaval<span class="menu-price">9 Lei</span></p>
+                    <p>3.Salată cu ton<span class="menu-price">15 Lei</span></p>
+                    <p>4.Mămăliguţă cu brânză şi smântână<span class="menu-price">14 Lei</span></p>
+                </section>
+                <section id="tabSection-2" class="tabSection hide-tab">
                     <p>1.Ceafă de porc<span class="menu-price">12 Lei</span></p>
                     <p>2.Pulpă de pui dezosată<span class="menu-price">11 Lei</span></p>
                     <p>3.Aripioare picante<span class="menu-price">10 Lei</span></p>
                     <p>4.Cartofi prăjiţi<span class="menu-price">5 Lei</span></p>
-                  </section>
-                  <section id="tabsection-3" class="tabSection hide-tab">
+                </section>
+                <section id="tabSection-3" class="tabSection hide-tab">
                     <p>1.Clătite cu dulceaţă<span class="menu-price">7 Lei</span></p>
                     <p>2.Papanaşi cu dulceaţă şi smântână<span class="menu-price">13 Lei</span></p>
                     <p>3.Clătite cu finetti<span class="menu-price">7 Lei</span></p>
                     <p>4.Salată de fructe<span class="menu-price">6 Lei</span></p>
-                  </section>
-                  <section id="tabsection-4" class="tabSection hide-tab">
+                </section>
+                <section id="tabSection-4" class="tabSection hide-tab">
                     <p>1.Becks (500ml)<span class="menu-price">6 Lei</span></p>
                     <p>2.Ciuc lemon (500ml)<span class="menu-price">6 Lei</span></p>
                     <p>3.Pepsi (330ml)<span class="menu-price">5 Lei</span></p>
                     <p>4.Jack Daniels (50ml)<span class="menu-price">12 Lei</span></p>
-                  </section>
-              </section>
-          </section>
+                </section>
+            </section>
+        </section>
 
-          <section id="restaurant-info">
-              <section class="address-content">
-                  <h2 class="restaurant-info-title">Adresa</h2>
-                  <p class="address">123 Asta e Bazooka</p>
-                  <p class="address">Alba Iulia, Alba</p>
-              </section>
-              <section class="bussiness-hours">
-                  <h2 class="restaurant-info-title">Program de Lucru</h2>
-                  <p class="hours">Luni-Vineri: 10:00 - 18:00</p>
-                  <p class="hours">Sambata-Duminica: 08:00 - 13:00</p>
-              </section>
-              <section class="contact-content">
-                <h2 class="restaurant-info-title">Comenzi telefonice</h2>
-                <p class="phone">0722222222</p>
-                <p class="phone">0255555555</p>
-              </section>
-          </section>
-      </main>
-      
+        <section id="restaurant-info">
+            <section class="info-container">
+                <section class="address-content">
+                    <h2 class="restaurant-info-title">Adresa</h2>
+                    <p class="address">123 Asta e Bazooka</p>
+                    <p class="address">Alba Iulia, Alba</p>
+                </section>
+                <section class="bussiness-hours">
+                    <h2 class="restaurant-info-title">Program de Lucru</h2>
+                    <p class="hours">Luni-Vineri: 10:00 - 18:00</p>
+                    <p class="hours">Sambata-Duminica: 08:00 - 13:00</p>
+                </section>
+                <section class="contact-content">
+                    <h2 class="restaurant-info-title">Comenzi telefonice</h2>
+                    <p class="phone">0722222222</p>
+                    <p class="phone">0255555555</p>
+                </section>
+            </section>
+        </section>
+    </main>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/main2.js"></script>
-  </body>
+</body>
+
 </html>

@@ -66,6 +66,7 @@ h2 {
     color: #f1c40f;
     font-size: 1.5em;
     padding: 15px;
+    cursor: pointer;
 }
 
 .nav-links-container {
@@ -78,12 +79,14 @@ h2 {
 .nav-links-container li {
     text-align: center;
     padding: 10px;
+    list-style-type: none;
 }
 
 .nav-links {
     text-decoration: none;
     color: #eee;
     font-size: 1.5em;
+    
 }
 
 .openNav {
@@ -143,6 +146,11 @@ p {
     text-align: center;
 }
 
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .address-content, .bussiness-hours, .contact-content {
     padding: 10px;
 }
@@ -156,4 +164,17 @@ p {
     font-size: 1em !important;
     text-align: center;
     margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .info-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .address-content, .bussiness-hours {
+        border-right: 1px solid #eee;
+        padding: 30px;
+    }
+    .contact-content {
+        padding: 30px;
+    }
 }
